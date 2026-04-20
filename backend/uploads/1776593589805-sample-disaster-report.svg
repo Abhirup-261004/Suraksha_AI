@@ -1,0 +1,61 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#CFE9F6"/>
+  <rect y="380" width="1280" height="340" fill="#7AB7D6"/>
+  <rect y="470" width="1280" height="250" fill="#4D95C0"/>
+  <circle cx="1060" cy="110" r="54" fill="#FFD166"/>
+  <path d="M0 322C87 283 173 269 260 280C347 291 433 327 520 332C607 337 693 311 780 293C867 275 953 266 1040 275C1127 284 1213 312 1280 340V0H0V322Z" fill="#9DD1B0"/>
+  <path d="M0 352C87 313 173 299 260 310C347 321 433 357 520 362C607 367 693 341 780 323C867 305 953 296 1040 305C1127 314 1213 342 1280 370V250C1215 223 1129 208 1042 216C955 225 869 260 782 278C695 296 609 299 522 289C435 279 349 246 262 238C175 229 88 244 0 284V352Z" fill="#7FB18B"/>
+  <rect x="185" y="242" width="188" height="168" rx="8" fill="#A46848"/>
+  <polygon points="162,262 279,182 396,262" fill="#7B4330"/>
+  <rect x="232" y="304" width="44" height="106" fill="#5A3223"/>
+  <rect x="292" y="292" width="44" height="54" fill="#D9EDF7"/>
+  <rect x="815" y="248" width="222" height="142" rx="8" fill="#9E5F3D"/>
+  <polygon points="792,266 926,184 1060,266" fill="#6C3B2A"/>
+  <rect x="862" y="302" width="52" height="88" fill="#5A3223"/>
+  <rect x="930" y="290" width="56" height="46" fill="#D9EDF7"/>
+  <rect x="536" y="308" width="164" height="32" rx="10" fill="#EEF7FB"/>
+  <rect x="552" y="338" width="132" height="20" rx="10" fill="#D94B3D"/>
+  <text x="618" y="330" text-anchor="middle" fill="#176044" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+    RELIEF CAMP
+  </text>
+  <rect x="520" y="360" width="196" height="20" rx="10" fill="#E8F3F8"/>
+  <rect x="548" y="390" width="48" height="88" rx="6" fill="#137A63"/>
+  <rect x="610" y="390" width="48" height="88" rx="6" fill="#F5F7FA"/>
+  <rect x="672" y="390" width="28" height="88" rx="6" fill="#137A63"/>
+  <circle cx="430" cy="474" r="26" fill="#FFD9B3"/>
+  <rect x="412" y="500" width="38" height="74" rx="12" fill="#E85D4A"/>
+  <rect x="392" y="518" width="24" height="16" rx="8" fill="#FFD9B3"/>
+  <rect x="446" y="518" width="24" height="16" rx="8" fill="#FFD9B3"/>
+  <rect x="414" y="574" width="14" height="54" rx="7" fill="#253746"/>
+  <rect x="436" y="574" width="14" height="54" rx="7" fill="#253746"/>
+  <circle cx="492" cy="486" r="22" fill="#FFD9B3"/>
+  <rect x="476" y="508" width="34" height="66" rx="12" fill="#137A63"/>
+  <rect x="460" y="524" width="20" height="14" rx="7" fill="#FFD9B3"/>
+  <rect x="510" y="524" width="20" height="14" rx="7" fill="#FFD9B3"/>
+  <rect x="478" y="574" width="12" height="50" rx="6" fill="#253746"/>
+  <rect x="496" y="574" width="12" height="50" rx="6" fill="#253746"/>
+  <circle cx="832" cy="500" r="26" fill="#FFD9B3"/>
+  <rect x="812" y="526" width="40" height="76" rx="12" fill="#F0F4F8"/>
+  <rect x="794" y="544" width="22" height="16" rx="8" fill="#FFD9B3"/>
+  <rect x="852" y="544" width="22" height="16" rx="8" fill="#FFD9B3"/>
+  <rect x="814" y="602" width="14" height="58" rx="7" fill="#253746"/>
+  <rect x="836" y="602" width="14" height="58" rx="7" fill="#253746"/>
+  <rect x="864" y="446" width="164" height="44" rx="14" fill="#FFFFFF" stroke="#1A6E5A" stroke-width="4"/>
+  <text x="946" y="475" text-anchor="middle" fill="#1A6E5A" font-family="Arial, sans-serif" font-size="28" font-weight="700">
+    MEDICAL AID
+  </text>
+  <rect x="886" y="490" width="120" height="26" rx="13" fill="#D94B3D"/>
+  <path d="M150 540C220 510 308 514 370 550C432 586 474 640 546 654C618 668 719 642 793 606C867 570 936 522 1018 520C1100 518 1182 562 1280 614V720H0V602C46 590 92 568 150 540Z" fill="#2F6D94" fill-opacity="0.55"/>
+  <text x="56" y="80" fill="#16382B" font-family="Arial, sans-serif" font-size="38" font-weight="700">
+    Sample upload for SurakshaAI verification
+  </text>
+  <text x="58" y="122" fill="#335E4A" font-family="Arial, sans-serif" font-size="24">
+    Flooded relief zone with evacuees, shelter tents, and a visible medical aid station
+  </text>
+  <text x="58" y="668" fill="#F5FBFF" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+    Suggested report text:
+  </text>
+  <text x="58" y="702" fill="#F5FBFF" font-family="Arial, sans-serif" font-size="22">
+    Medical support needed near Riverbank Camp. Floodwater remains high and responders are treating evacuees.
+  </text>
+</svg>

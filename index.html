@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Disaster Relief AI Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Urbanist:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<header>
+<div class="logo"><i class="fas fa-seedling"></i> Suraksha<span>AI</span></div>
+
+<div class="header-actions">
+<div class="eco-badge"><i class="fas fa-leaf"></i> Eco-Aware Response Grid</div>
+<div class="status"><i class="fas fa-circle"></i> Live Monitoring Active</div>
+</div>
+</header>
+
+<section class="hero">
+<div class="hero-copy">
+<div class="eyebrow"><i class="fas fa-earth-americas"></i> Climate-Ready Crisis Intelligence</div>
+<h1>Protect communities with <span class="gradient">greener, smarter relief operations</span></h1>
+<p>
+Track emergency signals, validate public reports with AI, and route food, shelter, rescue, and medical aid through a more humane and environment-friendly command dashboard.
+</p>
+
+<div class="btn-group">
+<button class="primary"><i class="fas fa-broadcast-tower"></i> Start Monitoring</button>
+<button class="secondary"><i class="fas fa-file-waveform"></i> Generate Report</button>
+</div>
+</div>
+
+<div class="hero-panel">
+<div class="weather-card">
+<div>
+<div class="weather-label">Field Conditions</div>
+<div class="weather-main">Monsoon Ready <span>Air quality stable and water routes monitored in real time</span></div>
+</div>
+<div class="weather-icon"><i class="fas fa-cloud-sun-rain"></i></div>
+</div>
+
+<div class="impact-card">
+<h3>Priority Ecosystem Signals</h3>
+<div class="impact-list">
+<div class="impact-item">
+<div>
+<strong>Floodplain Stability</strong>
+<span>Wetland barriers reducing overflow pressure</span>
+</div>
+<div class="impact-score">84%</div>
+</div>
+
+<div class="impact-item">
+<div>
+<strong>Clean Water Access</strong>
+<span>Portable refill hubs active across 9 zones</span>
+</div>
+<div class="impact-score">62%</div>
+</div>
+
+<div class="impact-item">
+<div>
+<strong>Relief Mobility</strong>
+<span>Low-emission rescue routes open for dispatch</span>
+</div>
+<div class="impact-score">71%</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="grid">
+<div class="card">
+<div class="card-header">
+<div class="card-icon"><i class="fas fa-satellite-dish"></i></div>
+<div class="card-trend">+18% today</div>
+</div>
+<h2 data-target="12450">0</h2>
+<p>Posts Scanned</p>
+</div>
+
+<div class="card">
+<div class="card-header">
+<div class="card-icon"><i class="fas fa-shield-alt"></i></div>
+<div class="card-trend">AI confidence rising</div>
+</div>
+<h2 data-target="1287">0</h2>
+<p>AI Verified Alerts</p>
+</div>
+
+<div class="card">
+<div class="card-header">
+<div class="card-icon"><i class="fas fa-map-location-dot"></i></div>
+<div class="card-trend">Green routes mapped</div>
+</div>
+<h2 data-target="342">0</h2>
+<p>Resources Mapped</p>
+</div>
+
+<div class="card">
+<div class="card-header">
+<div class="card-icon"><i class="fas fa-chart-line"></i></div>
+<div class="card-trend">Trusted results</div>
+</div>
+<h2 data-target="97">0</h2>
+<p>Verification Accuracy</p>
+</div>
+</section>
+
+<section class="dashboard">
+<div class="map-box">
+<div class="box-head">
+<div class="section-title"><i class="fas fa-map"></i> Live Relief Map</div>
+<div class="section-chip">Bioregion Overlay Active</div>
+</div>
+
+<div class="map" id="relief-map">
+<div class="map-legend">
+<div class="legend-item"><span class="legend-dot" style="background:#149a69;"></span> Shelter</div>
+<div class="legend-item"><span class="legend-dot" style="background:#f17c45;"></span> Critical</div>
+<div class="legend-item"><span class="legend-dot" style="background:#e4b93b;"></span> Food Aid</div>
+<div class="legend-item"><span class="legend-dot" style="background:#3096d8;"></span> Water Rescue</div>
+</div>
+</div>
+</div>
+
+<div class="feed-box">
+<div class="box-head">
+<div class="section-title"><i class="fas fa-bullhorn"></i> Live Verified Feed</div>
+<div class="section-chip">Updated every 12 sec</div>
+</div>
+
+<div class="feed">
+<div class="post">
+<div class="post-top">
+<span class="tag critical"><i class="fas fa-triangle-exclamation"></i> Critical</span>
+<span class="meta">Riverbank Camp &bull; 2 min ago</span>
+</div>
+<p>Need medical support at Riverbank Camp. 35 injured civilians confirmed and solar-powered triage units requested.</p>
+<div class="post-footer">
+<span class="signal"><i class="fas fa-circle-check"></i> AI + volunteer verified</span>
+<span>Route impact: Medium</span>
+</div>
+</div>
+
+<div class="post">
+<div class="post-top">
+<span class="tag pending"><i class="fas fa-hourglass-half"></i> Pending</span>
+<span class="meta">North Zone &bull; 5 min ago</span>
+</div>
+<p>Possible bridge collapse near North Zone. Drone scan queued for structural validation before rerouting electric rescue vans.</p>
+<div class="post-footer">
+<span class="signal"><i class="fas fa-satellite"></i> Satellite cross-check underway</span>
+<span>Route impact: High</span>
+</div>
+</div>
+
+<div class="post">
+<div class="post-top">
+<span class="tag verified"><i class="fas fa-circle-check"></i> Verified</span>
+<span class="meta">Sector 8 &bull; 9 min ago</span>
+</div>
+<p>Food truck arrived at Sector 8 shelter. Capacity increased to 500 meals with reusable container distribution enabled.</p>
+<div class="post-footer">
+<span class="signal"><i class="fas fa-seedling"></i> Low-waste supply chain</span>
+<span>Coverage: Stable</span>
+</div>
+</div>
+
+<div class="post">
+<div class="post-top">
+<span class="tag verified"><i class="fas fa-circle-check"></i> Verified</span>
+<span class="meta">East Canal &bull; 14 min ago</span>
+</div>
+<p>Rescue boats available near East Canal. Evacuation ongoing with water-safe pickup points now highlighted on the live map.</p>
+<div class="post-footer">
+<span class="signal"><i class="fas fa-water"></i> Water corridor open</span>
+<span>Coverage: Expanding</span>
+</div>
+</div>
+
+<div class="post">
+<div class="post-top">
+<span class="tag pending"><i class="fas fa-bolt"></i> Pending</span>
+<span class="meta">Downtown Block A &bull; 18 min ago</span>
+</div>
+<p>Power outage reported in Downtown Block A. Backup microgrid support being evaluated for medical refrigeration units.</p>
+<div class="post-footer">
+<span class="signal"><i class="fas fa-solar-panel"></i> Energy resilience check</span>
+<span>Impact: Moderate</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<footer>
+<i class="fas fa-shield-alt"></i>
+Suraksha AI at your greener emergency rescue
+</footer>
+
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="script.js"></script>
+
+</body>
+</html>
